@@ -1,19 +1,20 @@
 import React from "react";
-import { Container, Form, Logo } from "./styles";
+import { Container, Form, Login } from "./styles";
 import FilledInput from '@mui/material/FilledInput';
+import Logo from '../../../public/img/logo.svg';
 
 export const Signin = () => {
     return (
         <Container>
             <div className="container">
                 <div className="container-primary">
-                    
+                    <img src={Logo} alt="Logo do Sistema" title="Logo do Sistema"/>
                 </div>
                 <div className="container-secundary">
                     <Form>
-                        <Logo>
+                        <Login>
                             <h3>Login</h3>
-                        </Logo>
+                        </Login>
                         <FilledInput
                             id="filled-adornment-weight"
                             className="input"

@@ -22,4 +22,4 @@ export const Container = styled.div`
     }
 `;
 export const Form = styled.form``;
-export const Logo = styled.form``;
+export const Login = styled.form``;
